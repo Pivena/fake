@@ -1,27 +1,26 @@
-import React from "react";
-import ReactDOM from "react-dom/client";
+import React from 'react'
+import ReactDOM from 'react-dom/client'
 
-const Header = () => <h1>Hello App.js</h1>;
+const Header = () => <h1>Hello App.js</h1>
 
 function AppList() {
     return (
-          <ul>
+        <ul>
             <li>List item 1</li>
             <li>List item 2</li>
             <li>List item 3</li>
-         </ul>
-    );
+        </ul>
+    )
 }
 
 function App() {
     return (
         <>
-        <Header />
-        <AppList />
+            <Header />
+            <AppList />
         </>
-    );
+    )
 }
 
-const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<App />);
-
+const root = ReactDOM.createRoot(document.getElementById('root'))
+root.render(<App />)

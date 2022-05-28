@@ -1,11 +1,15 @@
 import React from 'react'
 
-const App = () => {
+import { Header } from 'container/Header/Header'
+import { Footer } from 'container/Footer/Footer'
+import { Main } from 'container/Main/Main'
+
+export const App = () => {
     return (
         <>
-            <h1>App.js</h1>
+            <Header />
+            <Main />
+            <Footer />
         </>
     )
 }
-
-export default App

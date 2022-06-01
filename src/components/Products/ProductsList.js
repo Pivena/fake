@@ -20,7 +20,7 @@ export const ProductsList = () => {
                 spacing={3}
                 direction="row"
                 justifyContent="center"
-                alihnItems="center"
+                alignItems="center"
             >
                 <Grid item xs={12} sm={6} md={4}>
                     <ProductListItem />

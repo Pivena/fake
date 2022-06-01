@@ -2,8 +2,9 @@ import React from 'react'
 import './CartHeader.scss'
 
 export const CartHeader = () => {
+    const isLoaded = false
     return (
-        <div className="cartHeader">
+        <div className={isLoaded ? 'white' : 'red'}>
             <div>0</div>
             <div>0$</div>
         </div>

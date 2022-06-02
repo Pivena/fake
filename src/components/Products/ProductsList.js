@@ -23,13 +23,31 @@ export const ProductsList = () => {
                 alignItems="center"
             >
                 <Grid item xs={12} sm={6} md={4}>
-                    <ProductListItem />
+                    <ProductListItem
+                        name="iPhone XS"
+                        description="This is iPhone XS"
+                        type="Phone"
+                        capacity="64"
+                        price="500"
+                    />
                 </Grid>
                 <Grid item xs={12} sm={6} md={4}>
-                    <ProductListItem />
+                    <ProductListItem
+                        name="iPhone XS"
+                        description="This is iPhone 13 PRO"
+                        type="Phone"
+                        capacity="128"
+                        price="1000"
+                    />
                 </Grid>
                 <Grid item xs={12} sm={6} md={4}>
-                    <ProductListItem />
+                    <ProductListItem
+                        name="iPhone XS"
+                        description="This is iPhone 12"
+                        type="Phone"
+                        capacity="264"
+                        price="1500"
+                    />
                 </Grid>
             </Grid>
             <ProductListItem />

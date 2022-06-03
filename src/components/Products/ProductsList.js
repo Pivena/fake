@@ -38,9 +38,6 @@ export const ProductsList = () => {
                     )
                 )}
             </Grid>
-            <ProductListItem />
-            <ProductListItem />
-            <ProductListItem />
         </>
     )
 }

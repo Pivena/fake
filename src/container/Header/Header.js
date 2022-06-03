@@ -8,6 +8,7 @@ import { Container } from '@mui/material'
 
 import { Menu } from 'components/Menu/Menu'
 import { CartHeader } from 'components/Cart/CartHeader'
+import logo from 'assets/icon (11).png'
 
 export const Header = () => {
     return (
@@ -30,6 +31,7 @@ export const Header = () => {
                         >
                             Fake shop
                         </Typography>
+                        <img src={logo} />
                         <Menu />
                         <CartHeader />
                     </Toolbar>

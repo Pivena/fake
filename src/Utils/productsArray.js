@@ -6,6 +6,7 @@ const products = [
         type: 'Phone',
         capacity: '64',
         price: '500',
+        image: 'images/iphone-black.jpg',
     },
     {
         id: 2,
@@ -14,6 +15,7 @@ const products = [
         type: 'Phone',
         capacity: '128',
         price: '1000',
+        image: 'images/iphone-green.jpg',
     },
     {
         id: 3,
@@ -22,6 +24,7 @@ const products = [
         type: 'Phone',
         capacity: '256',
         price: '1500',
+        image: 'images/iphone-pink.jpg',
     },
     {
         id: 4,
@@ -30,6 +33,7 @@ const products = [
         type: 'Phone',
         capacity: '64',
         price: '1000',
+        image: 'images/iphone-red.jpg',
     },
     {
         id: 5,
@@ -38,6 +42,7 @@ const products = [
         type: 'Phone',
         capacity: '128',
         price: '2000',
+        image: 'images/iphone-silver.jpg',
     },
     {
         id: 6,
@@ -46,6 +51,7 @@ const products = [
         type: 'Phone',
         capacity: '256',
         price: '1000',
+        image: 'images/iphone-white.jpg',
     },
 ]
 
